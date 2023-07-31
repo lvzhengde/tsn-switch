@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+#忽略编辑器临时文件
+*~
+*.swp
+*.swo
+*.bak
+
+#忽略MATLAB临时文件
+*.asv
+
+#忽略solution目录下的内容 
+solution/
+sim/
+
